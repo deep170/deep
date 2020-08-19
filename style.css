@@ -1,0 +1,331 @@
+.zoom:hover {
+    transform: scale(1.8); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+   
+  }
+  
+ /* .navbar-fixed-top.scrolled {
+    background-color:blak !important;
+    transition: background-color 200ms linear;
+  }*/
+
+/* Change Brand Font */
+.nav-item {
+    font-family: 'Patrick Hand', cursive;
+    font-size: 24px;
+    font-weight: bold;
+}
+/* Change Navigation Color */
+ .navbar #myMenu .custom-nav .nav-item a {
+    color: silver;
+}
+
+/* Change Navigation Hover Color */
+.navbar #myMenu .custom-nav .nav-item a:hover {
+    color: dimgray;
+}
+
+/*Make Header Image Responsive */
+body{
+  font-family: 'Patrick Hand', cursive;
+    background: black;
+    margin: 0;
+    padding: 0;
+    color: white;
+}
+.particlesJS{
+    background: url(images1/BG3.jpg);
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+    background-size:cover;
+    background-position: center center;
+
+}
+
+a {
+  color: grey;  
+}
+
+a:hover {
+    color:white;
+}
+
+@keyframes mymove 
+{
+    0%{transform: rotateY(0deg);}
+    100%{transform: rotateY(360deg);}
+}
+
+@keyframes spin
+{
+
+     0% {transform: rotateZ(0deg);} 
+         100%  {transform:rotateZ(360deg); } 
+}
+.x {
+    animation: mymove 5s linear 1;
+
+}
+.sp { 
+    animation: spin 2s linear infinite;
+    
+}
+
+.fam {
+    font-family: 'Nosifer', cursive;
+    font-size: 32px;
+}
+
+.carousel-control-next-icon,
+.carousel-control-prev-icon {
+  background-color: lightslategrey;
+  font-size: 20px;
+}
+
+.last 
+{
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.f{
+    font-family: 'Indie Flower', cursive;
+}
+
+.menu {
+
+}
+
+.y {
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+p 
+{ 
+  font-family: 'Patrick Hand', cursive;
+
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* body{
+    background-image: url(images/bg7.jpg);
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+*/
+.imagesSh{
+    box-shadow: 12px 12px 29px #555;;
+}
+
+
+@keyframes spinY
+{
+
+     0% {transform: rotateY(0deg);} 
+         100%  {transform:rotateY(360deg); } 
+}
+
+.sz { 
+    animation: spinY 2s linear infinite;
+    
+}
+
+.typeWriter{
+    position: absolute;
+    top: 400px;
+    font-family: 'Source Code Pro', monospace; 
+    padding-left: 10%;
+    padding-right: 10%;
+    font-size: 28px;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+  }
+
+  .name{
+    position: absolute;
+    top: 300px;
+    padding-left: 75px;
+    font-size: 50px;
+    padding-left: 10%;
+    padding-right: 10%;
+    color: white;
+    font-weight: bold;
+    width: 100%;
+  }
+
+  /* fOR LOADER */
+  /* Paste this css to your style sheet file or under head tag */
+/* This only works with JavaScript, 
+if it's not present, don't show loader */
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(https://smallenvelop.com/wp-content/uploads/2014/08/Preloader_11.gif) center no-repeat #fff;
+}
+
+
+.imageHover:hover {
+    transform: scale(1.2); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+    opacity: 0.8;
+    
+  }
+
+
+  #back-to-top-btn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    font-size: 26px;
+    width: 50px;
+    height: 50px;
+    background-color: #fff;
+    color: #333;
+    cursor: pointer;
+    outline: none;
+    border: 3px solid #333;
+    border-radius: 50%;
+    transition-duration: 0.2s;
+    transition-timing-function: ease-in-out;
+    transition-property: background-color, color;
+  }
+  #back-to-top-btn:hover, #back-to-top-btn:focus {
+    background-color: #333;
+    color: #fff;  
+  }
+  
+  @media(max-width: 992px) {
+    .container { padding: 20px 100px; }
+    #back-to-top-btn { font-size: 22px; width: 40px; height: 40px; bottom: 15px; right: 15px; }
+  }
+  @media(max-width:768px) {
+    body { font-size: 16px; }
+    .container { padding: 10px 50px; }
+    h1 { font-size: 26px; }
+    h2 { font-size: 22px; }
+    hr { margin: 30px 0; }
+    #back-to-top-btn { font-size: 18px; width: 32px; height: 32px; bottom: 6px; right: 6px; }
+  }
+  
+  /* Animations */
+  .btnEntrance {
+    animation-duration: 0.5s;
+    animation-fill-mode: both;
+    animation-name: btnEntrance;
+  }
+  /* zoomIn */
+  /* @keyframes btnEntrance { 
+    from {
+      opacity: 0;
+      transform: scale3d(0.3, 0.3, 0.3);
+    }
+    to {
+      opacity: 1;
+    }    
+  } */
+  
+  /* fadeInUp */
+  @keyframes btnEntrance {
+    from {
+      opacity: 0;
+      transform: translate3d(0, 100%, 0);
+    }
+    to {
+      opacity: 1;
+      transform: translate3d(0, 0, 0);
+    }
+  }
+  
+  .btnExit {
+    animation-duration: 0.25s;
+    animation-fill-mode: both;  
+    animation-name: btnExit;
+  }
+  /* zoomOut */
+  /* @keyframes btnExit {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+      transform: scale3d(0.3, 0.3, 0.3);
+    }
+  } */
+  
+  /* fadeOutDown */
+  @keyframes btnExit {
+    from {
+      opacity: 1;
+    }
+    to {
+      opacity: 0;
+      transform: translate3d(0, 100%, 0);
+    }
+  }
+
+  /* Skills Bar */
+
+
+.htmlB {width: 80%; height: 20px; border-top-left-radius: 5px; border-bottom-left-radius: 5px; background-color: #dd6f08;} /* Green */
+.cssB {width: 70%;  height: 20px; border-top-left-radius: 5px; border-bottom-left-radius: 5px; background-color: #2196F3;} /* Blue */
+.jsB {width: 50%;   height: 20px; border-top-left-radius: 5px; border-bottom-left-radius: 5px; background-color: #e9f724;} /* Red */
+.jqueryB {width: 50%;  height: 20px;  border-top-left-radius: 5px;  border-bottom-left-radius: 5px; background-color: #100475;} /* Dark Grey */
+.bootstrapB {width: 50%;  height: 20px;  border-top-left-radius: 5px;  border-bottom-left-radius: 5px; background-color: #ad25c9;} /* Dark Grey */
+.javaB {width: 70%; height: 20px; border-top-left-radius: 5px; border-bottom-left-radius: 5px; background-color:#d10909;} /* Green */
+.cB {width: 60%;  height: 20px; border-top-left-radius: 5px; border-bottom-left-radius: 5px; background-color: #6769c4e1;} /* Blue */
+.cplusB {width: 50%;   height: 20px; border-top-left-radius: 5px; border-bottom-left-radius: 5px; background-color: #5456e0;} /* Red */
+.phpB {width: 50%;   height: 20px; border-top-left-radius: 5px; border-bottom-left-radius: 5px; background-color:  #a0a5d4;} /* Red */
+.pythonB {width: 40%;  height: 20px;  border-top-left-radius: 5px;  border-bottom-left-radius: 5px; background-color: #FFD43B;} /* Dark Grey */
+
+.Bar {
+  text-align: left;
+  margin-top: 20px;
+  margin-bottom: 7px;
+  font-size: 16px;
+}
+
+.containerB {
+  width: 100%; /* Full width */
+  border-radius: 5px;
+  background-color: #ddd; /* Grey background */
+  height: 20px;
+  
+}
+
+.inputName{
+width: 90%;
+height: 42px;
+}
+
+.inputEmail{
+  width: 90%;
+  height: 42px;
+}
+
+.inputMessage{
+  width: 95%
+
+}
+
+h2{
+  font-weight: bold;
+}
+
+.success {
+	color: green;
+	text-align: center;
+	font-weight: bold;
+	font-size: 14px;
+
+}

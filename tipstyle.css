@@ -1,0 +1,127 @@
+body {
+  font-family: 'Neucha', cursive;
+  font-size: 21px;
+  font-weight: bold;
+  background: silver;
+  }
+  
+#container {
+  height:620px;
+  width:400px;
+  margin:100px auto;
+  background: grey;
+  box-shadow: 200 200 300px rgba(0, 0, 0, 0.1);
+  border-radius:20px;
+  -webkit-border-radius:50px;
+  -moz-border-radius: 20px;
+  }
+  
+ h1{ 
+ background: black;
+ color:white;
+ margin:0;
+ padding: 10px 100px;
+ text-transform:uppercase;
+ font-size: 18px;
+ font-weight: normal;
+ border-top-left-radius:20px;
+ border-top-right-radius:20px;
+ }
+ 
+ p {
+   padding-left:20px;
+   }
+   
+ form input[type="text"] {
+   width:100px;
+}
+
+input {
+  padding-left:10px;
+}
+ 
+ #billamt {
+  font-size:14px;
+  color:#2980b9;
+  background-color: #f7f7f7;
+  width:60%;
+  padding: 5px 5px 8px 8px;
+  }
+  
+#billamt:focus {
+ 
+  border: 3px solid #2980b9;
+  outline:none;
+}
+
+#peopleamt {
+    width:30%;
+    padding: 5px 5px 8px 8px;
+	margin-left:20px;
+	color:red;
+	background-color:#f7f7f7;
+	font-size:14px;
+	}
+	
+#serviceQual {
+  padding: 13px 13px 20px 20px;
+  margin-left:20px;
+  font-size:25px;
+  }
+  
+ button{
+    text-transform:uppercase;
+	font-weight:bold;
+	display:block;
+	margin:30px auto;
+	background: black;
+	border-radius: 5px;
+	width: 200px;
+	height:50px;
+	font-size:17px;
+	color:white;
+	}
+	
+button:hover {
+ background-color: slategray;
+ border-bottom-color: #111;
+ }
+ 
+ button:active {
+  position: relative;
+  top: 1px;
+  }
+  
+ #totalTip {
+   font-size:30px;
+   margin-top:5px;
+   text-align:center;
+   }
+   
+#totalTip:before {
+     content: "Tip amount";
+     font-size:20px;
+     font-weight:bold;
+     display:block;
+	 text-transform:uppercase;
+	}
+	
+#totalTip sup {
+ font-size:20px;
+ top: -18px;
+}
+
+#totalTip small {
+  font-size:25px;
+  font-weight:bold;
+  display:block;
+} 
+	
+ 
+ 
+  
+  
+  
+
+  
+ 
